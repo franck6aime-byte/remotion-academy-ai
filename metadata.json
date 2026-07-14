@@ -1,0 +1,6 @@
+{
+  "name": "Remotion Academy AI",
+  "description": "Une plateforme interactive d'apprentissage de Remotion pour créer des vidéos avec React, assistée par l'intelligence artificielle.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
