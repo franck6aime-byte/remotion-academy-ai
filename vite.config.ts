@@ -13,10 +13,15 @@ export default defineConfig(() => {
         registerType: 'autoUpdate',
         includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.svg'],
         manifest: {
+          id: '/',
           name: 'Remotion Academy AI',
           short_name: 'RemotionAI',
           description: 'Apprenez Remotion avec un assistant IA',
-          theme_color: '#ffffff',
+          theme_color: '#1a1030',
+          background_color: '#1a1030',
+          display: 'standalone',
+          orientation: 'portrait',
+          start_url: '/',
           icons: [
             {
               src: 'pwa-192x192.png',
@@ -29,6 +34,15 @@ export default defineConfig(() => {
               sizes: '512x512',
               type: 'image/png',
               purpose: 'any'
+            }
+          ],
+          screenshots: [
+            {
+              src: 'screenshot-wide.png',
+              sizes: '1280x720',
+              type: 'image/png',
+              form_factor: 'wide',
+              label: 'Remotion Academy AI - Dashboard'
             }
           ]
         }
